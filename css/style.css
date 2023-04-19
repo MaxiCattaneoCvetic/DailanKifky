@@ -104,6 +104,12 @@ label{
 /*** Inicio ***/
 
 
+/*** titulos ***/
+.titulos_dk_form{
+   color: rgb(246 246 246);
+}
+
+
 .titulos_dk{
     color: #2b3de3;
 }
@@ -230,7 +236,6 @@ label{
 }
 
 
-/*** Causes ***/
 
 
 
@@ -262,9 +267,12 @@ label{
 }
 
 
-/*** Donate ***/
+
 .contact_form_back {
     background: rgba(0, 29, 35, .8);
+}
+.footer_mg{
+    margin-top:-3rem !important;
 }
 
 
@@ -273,7 +281,6 @@ label{
     color: var(--primary);
     border-color: var(--primary);
 }
-
 
 
 /*** Testimonial ***/
