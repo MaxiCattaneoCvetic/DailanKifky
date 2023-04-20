@@ -106,8 +106,10 @@ label{
 
 /*** titulos ***/
 .titulos_dk_form{
-   color: rgb(246 246 246);
+    color: rgb(246 246 246);
 }
+
+
 
 
 .titulos_dk{
@@ -117,6 +119,22 @@ label{
 .actividades{
     margin-top: 3.2rem;
 }
+
+
+
+
+.form_sec{
+    background-image: url(/dailan/img/carousel-2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.container_form_back{
+    background-color: rgba(2, 1, 1, 0.711);
+}
+
+
 
 /*** Navbar ***/
 .fixed-top {
