@@ -133,7 +133,18 @@ label{
 .container_form_back{
     background-color: rgba(2, 1, 1, 0.711);
 }
-
+@media (max-width: 768px) {
+    .form_sec{
+        background-image: url(/dailan/img/carousel-2.jpg);
+        background-position: center;
+        background-attachment: fixed;
+    
+    }
+    
+    .container_form_back{
+        background-color: rgba(2, 1, 1, 0.711);
+    }
+}
 
 
 /*** Navbar ***/
@@ -242,6 +253,7 @@ label{
     }
 }
 
+/* About us page  */
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
@@ -256,9 +268,10 @@ label{
 
 
 
+/* ACTIVIDADES */
 
 
-.causes-item .causes-overlay {
+.actividades_item .causes-overlay {
     position: absolute;
     width: 100%;
     height: 0;
@@ -273,16 +286,11 @@ label{
     transition: .5s;
 }
 
-.causes-item:hover .causes-overlay {
+.actividades_item:hover .causes-overlay {
     height: 100%;
     opacity: 1;
 }
 
-
-/*** Service ***/
-.service-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
-}
 
 
 
@@ -290,12 +298,6 @@ label{
     background: rgba(0, 29, 35, .8) !important;
 }
 
-@media only screen and (max-width: 767px) {
-    .contact_form_back {
-    background: rgba(0, 29, 35, .8) !important;
-    background-image: url(/dailan/img/carousel-2.jpg);
-    }
-    }
 
 .footer_mg{
     margin-top:-3rem !important;
@@ -309,97 +311,6 @@ label{
 }
 
 
-/*** Testimonial ***/
-.testimonial-carousel::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    z-index: 1;
-}
-
-.testimonial-carousel::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    z-index: 1;
-}
-
-@media (min-width: 768px) {
-    .testimonial-carousel::before,
-    .testimonial-carousel::after {
-        width: 200px;
-    }
-}
-
-@media (min-width: 992px) {
-    .testimonial-carousel::before,
-    .testimonial-carousel::after {
-        width: 300px;
-    }
-}
-
-.testimonial-carousel .owl-item .testimonial-text {
-    background: var(--light);
-    transform: scale(.8);
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary);
-    transform: scale(1);
-}
-
-.testimonial-carousel .owl-item .testimonial-text *,
-.testimonial-carousel .owl-item .testimonial-item img {
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-text * {
-    color: var(--light) !important;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item img {
-    background: var(--primary) !important;
-} 
-
-.testimonial-carousel .owl-nav {
-    position: absolute;
-    width: 350px;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-    opacity: 0;
-    transition: .5s;
-    z-index: 1;
-}
-
-.testimonial-carousel:hover .owl-nav {
-    width: 300px;
-    opacity: 1;
-}
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
-    position: relative;
-    color: var(--primary);
-    font-size: 45px;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    color: var(--dark);
-}
 
 
 /*** Footer ***/
