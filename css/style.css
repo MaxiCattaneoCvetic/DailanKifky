@@ -126,11 +126,17 @@ label{
 .form_sec{
     background-image: url(/dailan/img/carousel-2.jpg);
     background-position: center;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 
 }
-
+@media screen and (max-width: 767px) {
+    .form_sec {
+    background-size: contain;
+    background-attachment: scroll;
+    }
+}
 .container_form_back{
     background-color: rgba(2, 1, 1, 0.711);
 }
