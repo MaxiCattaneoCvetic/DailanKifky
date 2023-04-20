@@ -126,6 +126,7 @@ label{
 .form_sec{
     background-image: url(/dailan/img/carousel-2.jpg);
     background-position: center;
+    background-size: contain;
     background-attachment: fixed;
 
 }
@@ -133,18 +134,7 @@ label{
 .container_form_back{
     background-color: rgba(2, 1, 1, 0.711);
 }
-@media (max-width: 768px) {
-    .form_sec{
-        background-image: url(/dailan/img/carousel-2.jpg);
-        background-position: center;
-        background-attachment: fixed;
-    
-    }
-    
-    .container_form_back{
-        background-color: rgba(2, 1, 1, 0.711);
-    }
-}
+
 
 
 /*** Navbar ***/
@@ -292,11 +282,17 @@ label{
 }
 
 
+/*** Service ***/
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+}
+
 
 
 .contact_form_back {
     background: rgba(0, 29, 35, .8) !important;
 }
+
 
 
 .footer_mg{
@@ -309,8 +305,6 @@ label{
     color: var(--primary);
     border-color: var(--primary);
 }
-
-
 
 
 /*** Footer ***/
