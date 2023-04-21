@@ -157,10 +157,9 @@ form{
 
 .fondo_dailan{
     background: url(../img/fondoDailan.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 10;
+
 }
 
 @media only screen 
