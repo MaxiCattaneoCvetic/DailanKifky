@@ -134,10 +134,15 @@ form{
     background-image: url(/dailan/img/about-3.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 
 }
 
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px)  {
+
+}
+    
 .container_form_back{
     background-color: rgba(2, 1, 1, 0.711);
 }
