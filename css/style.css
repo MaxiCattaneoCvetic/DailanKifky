@@ -122,12 +122,19 @@ label{
 
 
 
+.sumate{
+    margin-top: 2rem;
+}
+
+form{
+    margin-bottom:3rem;
+}
 
 .form_sec{
-    background-image: url(/dailan/img/carousel-2.jpg);
+    background-image: url(/dailan/img/about-3.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 
