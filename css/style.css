@@ -113,7 +113,7 @@ label{
 
 
 .titulos_dk{
-    color: #2b3de3;
+    color: #172497;
 }
 
 .actividades{
@@ -131,10 +131,36 @@ form{
 }
 
 .form_sec{
-    background-image: url(/dailan/img/about-3.jpg);
+    background-image: url(/dailan/img/carousel-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
 
+}
+.abut_1{
+    color: white;
+}
+
+.tresD{
+    box-shadow: -8px 0px 4px 8px rgba(0,0,0,0.08);
+    -webkit-box-shadow: -8px 0px 4px 8px rgba(0,0,0,0.08);
+    -moz-box-shadow: -8px 0px 4px 8px rgba(0,0,0,0.08);
+}
+.b-none{
+    background: none !important; 
+    color: white
+}
+
+.actividades_item h5{
+    font-size: 1,8rem;
+    color: salmon;
+}
+
+.fondo_dailan{
+    background: url(/dailan/img/fondoDailan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
 }
 
 @media only screen 
@@ -145,6 +171,7 @@ and (max-device-width: 667px)  {
     
 .container_form_back{
     background-color: rgba(2, 1, 1, 0.711);
+
 }
 
 
@@ -282,7 +309,7 @@ and (max-device-width: 667px)  {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .5);
     overflow: hidden;
     opacity: 0;
     transition: .5s;
