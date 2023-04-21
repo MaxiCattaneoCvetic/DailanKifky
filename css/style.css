@@ -131,7 +131,7 @@ form{
 }
 
 .form_sec{
-    background-image: url(/dailan/img/carousel-2.jpg);
+    background-image: url(../img/carousel-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -156,7 +156,7 @@ form{
 }
 
 .fondo_dailan{
-    background: url(/dailan/img/fondoDailan.jpg);
+    background: url(../img/fondoDailan.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
