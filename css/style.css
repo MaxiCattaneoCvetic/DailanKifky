@@ -118,6 +118,7 @@ label{
 
 .titulos_dk{
     color: rgb(103, 103, 238);
+    filter: none !important;
 }
 
 .actividades{
@@ -142,6 +143,9 @@ form{
 
 .text_main{
     color: black;
+    font-size: 1,2rem;
+    font-weight: bolder;
+    filter: none !important;
 }
 .about_about{
     padding: 10rem;
@@ -158,10 +162,13 @@ form{
 .actividades_item h5{
     font-size: 2rem;
     color: salmon;
+    font-weight: bolder;
+    filter: none !important;
 }
 
 .ab_container{
     padding-bottom: 6rem;
+    padding-top: 5rem;
 }
 
 .ac_container{
@@ -171,18 +178,21 @@ form{
 
 
 .fondo_dailan{
-    background: url(../img/fondoDailan.jpg) rgba(0, 0, 0, 0.192);
+    background: url(../img/fondoDailan.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
 
 
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 667px)  {
-
-}
+.fondo2 {
+    position: relative;
+    background: url(../img/Diseño\ sin\ título.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
     
 .container_form_back{
     background-color: rgba(2, 1, 1, 0.711);
