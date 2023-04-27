@@ -125,7 +125,6 @@ label{
 }
 
 
-
 .sumate{
     margin-top: 2rem;
 }
@@ -152,15 +151,32 @@ form{
     background: none !important; 
 }
 
+.container_actividades{
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+}
 .actividades_item h5{
     font-size: 2rem;
     color: salmon;
 }
 
+.ab_container{
+    padding-bottom: 6rem;
+}
+
+.ac_container{
+    padding: 5rem;
+
+}
+
+
 .fondo_dailan{
     background: url(../img/fondoDailan.jpg) rgba(0, 0, 0, 0.192);
-    background-size: contain;
+    background-size: cover;
+
 }
+
+
 
 @media only screen 
 and (min-device-width: 375px) 
