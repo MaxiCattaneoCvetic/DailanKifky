@@ -187,9 +187,8 @@ form{
 
 
 .fondo2 {
-    position: relative;
-    background: url(../img/Diseño\ sin\ título.png);
-    background-position: center;
+    background: url(../img/IMGb.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
   }
