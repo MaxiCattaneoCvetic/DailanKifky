@@ -159,7 +159,7 @@ form{
 
 .fondo_dailan{
     background: url(../img/fondoDailan.jpg) rgba(0, 0, 0, 0.192);
-    background-size: cover;
+    background-size: contain;
 }
 
 @media only screen 
