@@ -6,6 +6,10 @@
     --dark: #001D23;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -113,7 +117,7 @@ label{
 
 
 .titulos_dk{
-    color: #172497;
+    color: rgb(103, 103, 238);
 }
 
 .actividades{
@@ -136,30 +140,26 @@ form{
     background-repeat: no-repeat;
 
 }
-.abut_1{
-    color: white;
+
+.text_main{
+    color: black;
+}
+.about_about{
+    padding: 10rem;
 }
 
-.tresD{
-    box-shadow: -8px 0px 4px 8px rgba(0,0,0,0.08);
-    -webkit-box-shadow: -8px 0px 4px 8px rgba(0,0,0,0.08);
-    -moz-box-shadow: -8px 0px 4px 8px rgba(0,0,0,0.08);
-}
 .b-none{
     background: none !important; 
-    color: white
 }
 
 .actividades_item h5{
-    font-size: 1,8rem;
+    font-size: 2rem;
     color: salmon;
 }
 
 .fondo_dailan{
-    background: url(../img/fondoDailan.jpg);
-    background-repeat: no-repeat;
+    background: url(../img/fondoDailan.jpg) rgba(0, 0, 0, 0.192);
     background-size: cover;
-
 }
 
 @media only screen 
